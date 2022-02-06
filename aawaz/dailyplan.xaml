@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aawaz.dailyplan"
+             BackgroundColor="#71d0e8">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="DAILY PLAN" TextColor="Black" FontSize="Large" FontFamily="Arial" 
+                   HorizontalOptions="Center" FontAttributes="Bold,Italic"/>
+            <Grid HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <ImageButton Source="brushingteeth.png"
+                             BackgroundColor="MediumPurple"
+                             VerticalOptions="Center"
+                             HorizontalOptions="FillAndExpand"
+                             WidthRequest="250"
+                             HeightRequest="250"
+                             Grid.Row="0"
+                             Grid.Column="0"
+                             Clicked="Button_Clicked">
+                </ImageButton>
+
+                <ImageButton Source="cleaningroom.png"
+                             BackgroundColor="CornflowerBlue"
+                             VerticalOptions="Center"
+                             HorizontalOptions="FillAndExpand"
+                             WidthRequest="250"
+                             HeightRequest="250"
+                             Grid.Row="0"
+                             Grid.Column="1"
+                             Clicked="Button_Clicked1">
+                </ImageButton>
+
+                <ImageButton Source="takingbath.png"
+                             BackgroundColor="MediumPurple"
+                             VerticalOptions="Center"
+                             HorizontalOptions="FillAndExpand"
+                             WidthRequest="250"
+                             HeightRequest="250"
+                             Grid.Row="1"
+                             Grid.Column="0"
+                             Clicked="Button_Clicked2">
+                </ImageButton>
+                <ImageButton Source="doingexercise.png"
+                             BackgroundColor="CornflowerBlue"
+                             VerticalOptions="Center"
+                             HorizontalOptions="FillAndExpand"
+                             WidthRequest="250"
+                             HeightRequest="250"
+                             Grid.Row="1"
+                             Grid.Column="1"
+                             Clicked="Button_Clicked3">
+                </ImageButton>
+
+                <ImageButton Source="watchingtelevision.png"
+                             BackgroundColor="MediumPurple"
+                             VerticalOptions="Center"
+                             HorizontalOptions="FillAndExpand"
+                             WidthRequest="250"
+                             HeightRequest="250"
+                             Grid.Row="2"
+                             Grid.Column="0"
+                             Clicked="Button_Clicked4">
+                </ImageButton>
+                <ImageButton Source="playinggames.png"
+                             BackgroundColor="CornflowerBlue"
+                             VerticalOptions="Center"
+                             HorizontalOptions="FillAndExpand"
+                             WidthRequest="250"
+                             HeightRequest="250"
+                             Grid.Row="2"
+                             Grid.Column="1"
+                             Clicked="Button_Clicked5">
+                </ImageButton>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aawaz.LocalPage"
+             BackgroundColor="#71d0e8">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" >
+            <Label Text="आफ्नो बिशेषता जन्नुहोस" TextColor="Black" FontSize="Large" HorizontalOptions="Center" FontAttributes="Bold,Italic"/>
+            <Label Text="दैनिकी को लागि सहायता र मदत लिनुहोस्" TextColor="Black" FontSize="Large" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+            <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <ImageButton Source="barga.png" 
+                             BackgroundColor="Purple"
+                             VerticalOptions="Center"
+                             HorizontalOptions="FillAndExpand"
+                             Grid.Row="0">
+                </ImageButton>
+                <ImageButton Source="dainikii.png" 
+                             BackgroundColor="#1E2F59"
+                             VerticalOptions="Center"
+                             HorizontalOptions="FillAndExpand"
+                             Grid.Row="1">
+                </ImageButton>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

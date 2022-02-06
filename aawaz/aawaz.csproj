@@ -1,0 +1,116 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="EngAudio\angry.mp3" />
+    <None Remove="EngAudio\apple.mp3" />
+    <None Remove="EngAudio\Ball.mp3" />
+    <None Remove="EngAudio\banana.mp3" />
+    <None Remove="EngAudio\beans.mp3" />
+    <None Remove="EngAudio\Broccoli.mp3" />
+    <None Remove="EngAudio\brushyourteeth.mp3" />
+    <None Remove="EngAudio\Cauliflower.mp3" />
+    <None Remove="EngAudio\Celery.mp3" />
+    <None Remove="EngAudio\cereal.mp3" />
+    <None Remove="EngAudio\Chair.mp3" />
+    <None Remove="EngAudio\cleanyourroom.mp3" />
+    <None Remove="EngAudio\Coffee.mp3" />
+    <None Remove="EngAudio\Colddrinks.mp3" />
+    <None Remove="EngAudio\corn.mp3" />
+    <None Remove="EngAudio\Cricket.mp3" />
+    <None Remove="EngAudio\excercise.mp3" />
+    <None Remove="EngAudio\flour.mp3" />
+    <None Remove="EngAudio\happy.mp3" />
+    <None Remove="EngAudio\Hotchocolate.mp3" />
+    <None Remove="EngAudio\Juice.mp3" />
+    <None Remove="EngAudio\kiwi.mp3" />
+    <None Remove="EngAudio\lentils.mp3" />
+    <None Remove="EngAudio\loved.mp3" />
+    <None Remove="EngAudio\mango.mp3" />
+    <None Remove="EngAudio\milk.mp3" />
+    <None Remove="EngAudio\Mobile.mp3" />
+    <None Remove="EngAudio\neutral.mp3" />
+    <None Remove="EngAudio\pineapple.mp3" />
+    <None Remove="EngAudio\playanoutdoorgame.mp3" />
+    <None Remove="EngAudio\Potato.mp3" />
+    <None Remove="EngAudio\Pumpkin.mp3" />
+    <None Remove="EngAudio\Radish.mp3" />
+    <None Remove="EngAudio\rice.mp3" />
+    <None Remove="EngAudio\sad.mp3" />
+    <None Remove="EngAudio\strawberry.mp3" />
+    <None Remove="EngAudio\surprised.mp3" />
+    <None Remove="EngAudio\takeabath.mp3" />
+    <None Remove="EngAudio\Tea.mp3" />
+    <None Remove="EngAudio\TOY.mp3" />
+    <None Remove="EngAudio\TV.mp3" />
+    <None Remove="EngAudio\watchingtelevision.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="EngAudio\happy.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="EngAudio\beans.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="EngAudio\angry.mp3" />
+    <EmbeddedResource Include="EngAudio\apple.mp3" />
+    <EmbeddedResource Include="EngAudio\Ball.mp3" />
+    <EmbeddedResource Include="EngAudio\banana.mp3" />
+    <EmbeddedResource Include="EngAudio\Broccoli.mp3" />
+    <EmbeddedResource Include="EngAudio\brushyourteeth.mp3" />
+    <EmbeddedResource Include="EngAudio\Cauliflower.mp3" />
+    <EmbeddedResource Include="EngAudio\Celery.mp3" />
+    <EmbeddedResource Include="EngAudio\cereal.mp3" />
+    <EmbeddedResource Include="EngAudio\Chair.mp3" />
+    <EmbeddedResource Include="EngAudio\cleanyourroom.mp3" />
+    <EmbeddedResource Include="EngAudio\Coffee.mp3" />
+    <EmbeddedResource Include="EngAudio\Colddrinks.mp3" />
+    <EmbeddedResource Include="EngAudio\corn.mp3" />
+    <EmbeddedResource Include="EngAudio\Cricket.mp3" />
+    <EmbeddedResource Include="EngAudio\excercise.mp3" />
+    <EmbeddedResource Include="EngAudio\flour.mp3" />
+    <EmbeddedResource Include="EngAudio\Hotchocolate.mp3" />
+    <EmbeddedResource Include="EngAudio\Juice.mp3" />
+    <EmbeddedResource Include="EngAudio\kiwi.mp3" />
+    <EmbeddedResource Include="EngAudio\lentils.mp3" />
+    <EmbeddedResource Include="EngAudio\loved.mp3" />
+    <EmbeddedResource Include="EngAudio\mango.mp3" />
+    <EmbeddedResource Include="EngAudio\milk.mp3" />
+    <EmbeddedResource Include="EngAudio\Mobile.mp3" />
+    <EmbeddedResource Include="EngAudio\neutral.mp3" />
+    <EmbeddedResource Include="EngAudio\pineapple.mp3" />
+    <EmbeddedResource Include="EngAudio\playanoutdoorgame.mp3" />
+    <EmbeddedResource Include="EngAudio\Potato.mp3" />
+    <EmbeddedResource Include="EngAudio\Pumpkin.mp3" />
+    <EmbeddedResource Include="EngAudio\Radish.mp3" />
+    <EmbeddedResource Include="EngAudio\rice.mp3" />
+    <EmbeddedResource Include="EngAudio\sad.mp3" />
+    <EmbeddedResource Include="EngAudio\strawberry.mp3" />
+    <EmbeddedResource Include="EngAudio\surprised.mp3" />
+    <EmbeddedResource Include="EngAudio\takeabath.mp3" />
+    <EmbeddedResource Include="EngAudio\Tea.mp3" />
+    <EmbeddedResource Include="EngAudio\TOY.mp3" />
+    <EmbeddedResource Include="EngAudio\TV.mp3" />
+    <EmbeddedResource Include="EngAudio\watchingtelevision.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Plugin.MediaManager.Forms" Version="1.1.0" />
+    <PackageReference Include="Xam.Plugin.SimpleAudioPlayer" Version="1.5.0" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+  </ItemGroup>
+</Project>

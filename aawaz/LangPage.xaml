@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aawaz.LangPage" BackgroundImageSource="ss.png">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+            <Label Text="Please Select The Langauge" TextColor="Black" FontSize="Large" FontAttributes="Bold,Italic" HorizontalOptions="Center"/>
+            <Label Text="कृपया भाषा छनोट गर्नुहोस" TextColor="Black" FontSize="Large" HorizontalOptions="Center"/>
+            <Button Text="English" FontFamily="Arial" FontSize="Large" FontAttributes="Bold"
+            BackgroundColor="Purple"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="Center"
+            Clicked="Button_Clicked"/>
+            <Button Text="नेपाली" FontFamily="Arial" FontSize="Large" FontAttributes="Bold"
+            BackgroundColor="ForestGreen"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="Center"
+            Clicked="Button_Clicked1"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

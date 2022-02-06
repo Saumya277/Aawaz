@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aawaz.EnglishPage" 
+             BackgroundColor="#71d0e8">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" >
+            <Label Text="LEARN YOUR UNIQUENESS" TextColor="Black" FontSize="Large" HorizontalOptions="Center" FontAttributes="Bold,Italic"/>
+            <Label Text="Discover the Daily Support and Help you Need" TextColor="Black" FontSize="Large" HorizontalOptions="Center" 
+                   HorizontalTextAlignment="Center"/>
+            <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                
+                <ImageButton Source="category.png"
+                             BackgroundColor="MediumPurple"
+                             WidthRequest="250"
+                             HeightRequest="250"
+                             VerticalOptions="Center"
+                             Grid.Row="0"
+                             Clicked="Button_Clicked">
+                </ImageButton>
+   
+                <ImageButton Source="dailyplan.png" 
+                             BackgroundColor="CornflowerBlue"
+                             VerticalOptions="Center"
+                             HorizontalOptions="FillAndExpand"
+                             Grid.Row="1"
+                             Clicked="Button_Clicked1">
+                </ImageButton>
+            </Grid>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
